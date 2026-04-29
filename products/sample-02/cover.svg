@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <radialGradient id="r" cx="30%" cy="20%" r="80%">
+      <stop offset="0" stop-color="#bbe309" stop-opacity="0.25"/>
+      <stop offset="0.6" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f7f8f5"/>
+    </radialGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="rgba(0,0,0,0.18)"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#r)"/>
+  <g filter="url(#s)">
+    <rect x="90" y="120" width="1020" height="1360" rx="42" fill="#ffffff" stroke="rgba(17,17,17,0.12)"/>
+  </g>
+  <g fill="#111">
+    <text x="150" y="280" font-size="120" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" font-weight="800">制品 B</text>
+    <text x="154" y="360" font-size="34" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" opacity="0.7">第二个占位封面</text>
+    <text x="154" y="460" font-size="28" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" opacity="0.6">建议替换为：你的插图 / 实拍 / 海报排版</text>
+  </g>
+  <g transform="translate(150 1240)" fill="#111">
+    <text x="0" y="0" font-size="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" opacity="0.65">点击卡片展开：介绍 + 外链</text>
+    <text x="0" y="88" font-size="96" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" font-weight="900" letter-spacing="-1">OPEN →</text>
+  </g>
+</svg>
+
